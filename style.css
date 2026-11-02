@@ -226,17 +226,19 @@ footer{
     }
 
     #services-section{
-        height: 1200px;
+        height: 2000px;
     }
 
     #services{
         flex-direction: column;
         flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
     }
     .card{
         width: 100%;
         height: auto;
-        margin: 10px 5px 10px 5px;
+        margin: 20px 5px 20px 5px;
     }
 
 }
